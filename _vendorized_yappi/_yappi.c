@@ -1480,7 +1480,7 @@ static struct PyModuleDef _yappi_module = {
 
 PyMODINIT_FUNC
 #ifdef IS_PY3K
-PyInit__yappi(void)
+PyInit__GreenletProfiler_yappi(void)
 #else
 init_GreenletProfiler_yappi(void)
 #endif
